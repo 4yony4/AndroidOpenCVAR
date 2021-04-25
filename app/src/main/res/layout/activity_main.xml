@@ -13,7 +13,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon1" />
+        app:srcCompat="@drawable/icon1"
+        tools:visibility="gone" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -22,5 +23,29 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/icon1" />
+        app:srcCompat="@drawable/icon1"
+        tools:visibility="gone" />
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/javaCamera2View"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:show_fps="true"
+        app:camera_id="back"/>
+
+
+    <!--
+    <org.opencv.android.CameraBridgeViewBase
+        android:id="@+id/viewCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        -->
 </androidx.constraintlayout.widget.ConstraintLayout>

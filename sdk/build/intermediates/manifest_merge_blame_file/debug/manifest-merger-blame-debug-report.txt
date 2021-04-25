@@ -5,7 +5,7 @@
 5    android:versionName="4.5.2" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="23"
 8-->/home/Yony44/Dev/Android/ARAndroidTest1/sdk/java/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
 9-->/home/Yony44/Dev/Android/ARAndroidTest1/sdk/java/AndroidManifest.xml
